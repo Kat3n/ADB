@@ -1,0 +1,273 @@
+08-31 15:41:29.801  1292  4053 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[840,479][1008,647] (has extras)} from uid 10063
+08-31 15:41:29.838  1292  1319 D Boost   : hostingType=activity, hostingName={com.android.todolist/com.android.todolist.MainActivity}, callerPackage=com.miui.home, isSystem=true, isBoostNeeded=false.
+08-31 15:41:29.839  1292  1319 I ActivityManager: Start proc 24980:com.android.todolist/u0a310 for activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.miui.home
+08-31 15:41:30.442 24980 24980 W Looper  : Slow Looper main: Activity com.android.todolist/.MainActivity is 542ms late (wall=1ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 299ms (seq=2 late=1ms h=android.app.ActivityThread$H w=110), msg 2 took 244ms (seq=3 late=298ms h=android.app.ActivityThread$H w=159)
+08-31 15:41:30.460  1292  4053 I WindowManager: Relayout Window{8405148 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+08-31 15:41:30.545  1292  1311 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{cff5764 u0 com.android.todolist/.MainActivity t26062} time:2357371697
+08-31 15:52:23.688  1292  1521 D PowerHalWrapper: <amsBoostResume> last:com.miui.home, next:com.android.todolist 
+08-31 15:52:23.708  1292  3900 D PowerHalWrapper: amsBoostNotify pid:24980,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.google.android.permissioncontroller 
+08-31 15:52:23.709   530   568 I libPowerHal: [perfNotifyAppState] foreground:com.android.todolist, pid:24980, uid:10310
+08-31 15:52:23.709   530   568 I powerd  : [powerd_req] POWER_MSG_NOTIFY_STATE, pc:0, com.miui.home => com.android.todolist
+08-31 15:52:23.711  4925 20490 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10310, mForegroundPid=24980, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10063, mLastForegroundPid=1711, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+08-31 15:52:23.711  9344 20422 I GST     : forePkg: com.android.todolist, preForePkg: com.miui.home
+08-31 15:52:23.711  4925 20490 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.todolist	 last=com.miui.home
+08-31 15:52:23.711  4925 20490 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10310, mForegroundPid=24980, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10063, mLastForegroundPid=1711, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+08-31 15:52:23.741  1711  1711 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+08-31 15:52:23.744  1292  1521 I WindowManager: Relayout Window{8405148 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+08-31 15:52:23.745   576   618 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:0,p:-1,c:576) setConsumerName: com.android.todolist/com.android.todolist.MainActivity#0
+08-31 15:52:23.745   576   618 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:0,p:-1,c:576) setDefaultBufferSize: width=1080 height=2340
+08-31 15:52:23.752 24980 25001 I GED     : [GT]_getprocess name(com.android.todolist)
+08-31 15:52:23.759   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) connect(P): api=1 producer=(24980:com.android.todolist) producerControlledByApp=false
+08-31 15:52:23.978   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.093   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.185  1292  5893 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{cff5764 u0 com.android.todolist/.MainActivity t26062} time:2358025337
+08-31 15:52:24.194   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.201   576   576 E Layer   : [Surface(name=AppWindowToken{8711682 token=Token{b0ddcd ActivityRecord{cff5764 u0 com.android.todolist/.MainActivity t26062}}})/@0xcbc7739 - animation-leash#0] No local sync point found
+08-31 15:52:24.201   576   576 E Layer   : [Surface(name=AppWindowToken{8711682 token=Token{b0ddcd ActivityRecord{cff5764 u0 com.android.todolist/.MainActivity t26062}}})/@0xcbc7739 - animation-leash#0] No local sync point found
+08-31 15:52:24.303   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.404   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.506   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.606   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.724   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:24.841   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.040   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.161   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.303   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.367   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=1.26 dur=1589.76 max=1569.72 min=20.05
+08-31 15:52:25.405   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.521   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.623   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:25.850   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:26.906   576  2361 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=10.39 dur=1539.33 max=1297.04 min=9.19
+08-31 15:52:26.913 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:26.914 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:26.920   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.022   576  2361 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:0,p:-1,c:576) setConsumerName: com.android.todolist/com.android.todolist.MainActivity#1
+08-31 15:52:27.022   576  2361 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:0,p:-1,c:576) setDefaultBufferSize: width=177 height=177
+08-31 15:52:27.023   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.027   576  2361 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:0,p:-1,c:576) setDefaultBufferSize: width=1200 height=771
+08-31 15:52:27.031   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:1,p:24980,c:576) connect(P): api=1 producer=(24980:com.android.todolist) producerControlledByApp=false
+08-31 15:52:27.142   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.243   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.354   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.457   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.556   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.657   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.775   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:27.892   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.039   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.075 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:28.085   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:1,p:24980,c:576) queueBuffer: fps=3.91 dur=1023.81 max=921.98 min=18.92
+08-31 15:52:28.107 25327 25327 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+08-31 15:52:28.157   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.241 24654 21195 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:28.263 24654 24732 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:28.273   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.275   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=17.54 dur=1368.46 max=963.38 min=8.84
+08-31 15:52:28.374   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.474   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.589   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.706   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.822   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:28.941   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.058   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.152   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:1,p:24980,c:576) queueBuffer: fps=18.74 dur=1067.39 max=449.50 min=13.58
+08-31 15:52:29.171   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.291   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.409   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.659   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.785   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.855   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=1.27 dur=1580.53 max=1574.59 min=5.94
+08-31 15:52:29.889   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:29.989   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.105   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.242   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.387   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.639   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:1,p:24980,c:576) queueBuffer: fps=2.02 dur=1486.05 max=499.97 min=486.32
+08-31 15:52:30.660   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.786   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.922   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:30.924   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:1,p:24980,c:576) disconnect(P): api 1
+08-31 15:52:30.937 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:30.937  1292  3900 E InputDispatcher: Window handle Window{1c6841d u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+08-31 15:52:30.937 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:30.941 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:30.955   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=14.55 dur=1099.88 max=844.13 min=15.21
+08-31 15:52:31.025   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.107   576   576 I BufferQueue: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x7607664000,id:61979,api:1,p:-1,c:-1) ~BufferQueueCore
+08-31 15:52:31.142   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.246   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.362   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.473   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.591   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.711   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:31.835   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:32.608   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=6.66 dur=1652.36 max=1493.27 min=2.23
+08-31 15:52:32.623   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:32.738   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:32.855   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:32.975   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:33.092   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:34.263 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:34.264 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:34.332   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=9.86 dur=1724.65 max=1457.08 min=15.15
+08-31 15:52:34.342   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:34.381   576   620 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:0,p:-1,c:576) setConsumerName: com.android.todolist/com.android.todolist.MainActivity#1
+08-31 15:52:34.381   576   620 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:0,p:-1,c:576) setDefaultBufferSize: width=177 height=177
+08-31 15:52:34.385   576   620 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:0,p:-1,c:576) setDefaultBufferSize: width=1200 height=771
+08-31 15:52:34.398   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:1,p:24980,c:576) connect(P): api=1 producer=(24980:com.android.todolist) producerControlledByApp=false
+08-31 15:52:34.456   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:34.561   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:34.674   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:34.790   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:34.891   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.007   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.124   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.195 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:35.226 25327 25327 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+08-31 15:52:35.241   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.243 24654 21195 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:35.243 24654 26321 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:35.250 24654 24732 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:35.254 24654 24732 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:35.343   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.447   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.547   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.662   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.690   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:1,p:24980,c:576) queueBuffer: fps=4.85 dur=1235.84 max=640.27 min=19.94
+08-31 15:52:35.776   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.886   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:35.990   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.091   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.207   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.326   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.439   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.569   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.907   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=9.71 dur=2574.68 max=1591.46 min=1.83
+08-31 15:52:36.926   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:36.935   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:1,p:24980,c:576) queueBuffer: fps=14.46 dur=1244.71 max=510.18 min=14.27
+08-31 15:52:37.042   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.143   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.246   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.347   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.448   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.576   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.688   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.764   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:1,p:24980,c:576) disconnect(P): api 1
+08-31 15:52:37.770  1292  7449 E InputDispatcher: Window handle Window{4d20f94 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+08-31 15:52:37.782 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:37.783 24980 24980 I chatty  : uid=10310(com.android.todolist) identical 1 line
+08-31 15:52:37.786 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:37.787  1292  7449 E InputDispatcher: Window handle Window{4d20f94 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+08-31 15:52:37.790   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.893   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:37.912   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=15.91 dur=1005.46 max=716.91 min=4.89
+08-31 15:52:37.940   576   576 I BufferQueue: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x75e9f3c800,id:61981,api:1,p:-1,c:-1) ~BufferQueueCore
+08-31 15:52:38.009   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.122   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.224   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.340   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.441   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.541   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.659   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.779   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.877 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:38.888  1292  7449 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10310
+08-31 15:52:38.880 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6421264
+08-31 15:52:38.890   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:38.891  1292  7449 D PowerHalWrapper: <amsBoostResume> last:com.android.todolist, next:com.android.todolist 
+08-31 15:52:38.902 24980 24980 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+08-31 15:52:38.909  1292  7449 D PowerHalWrapper: amsBoostNotify pid:24980,activity:com.android.todolist.ListActivity, package:com.android.todolist, mProcessCreatePackcom.google.android.permissioncontroller 
+08-31 15:52:38.921   576   620 I BufferQueueProducer: [Toast#0](this:0x75e9f3c800,id:61983,api:1,p:24980,c:576) connect(P): api=1 producer=(24980:com.android.todolist) producerControlledByApp=false
+08-31 15:52:38.947 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@d3ad61
+08-31 15:52:38.985 24980 24980 I chatty  : uid=10310(com.android.todolist) identical 7 lines
+08-31 15:52:38.987 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@d3ad61
+08-31 15:52:38.993   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:39.014  1711  1711 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+08-31 15:52:39.030  1292  7449 I WindowManager: Relayout Window{e6048c8 u0 com.android.todolist/com.android.todolist.ListActivity}: oldVis=4 newVis=0 focusMayChange = true
+08-31 15:52:39.031   576   620 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:0,p:-1,c:576) setConsumerName: com.android.todolist/com.android.todolist.ListActivity#0
+08-31 15:52:39.031   576   620 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:0,p:-1,c:576) setDefaultBufferSize: width=1 height=1
+08-31 15:52:39.032   576   620 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:0,p:-1,c:576) setDefaultBufferSize: width=1080 height=2340
+08-31 15:52:39.037   576  2361 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:1,p:24980,c:576) connect(P): api=1 producer=(24980:com.android.todolist) producerControlledByApp=false
+08-31 15:52:39.058   576   620 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) queueBuffer: fps=3.49 dur=1145.57 max=1097.23 min=14.35
+08-31 15:52:39.114   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:39.114   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.214   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:39.214   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.317   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:39.317   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.429   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:39.429   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.547   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.MainActivity#0)
+08-31 15:52:39.547   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.571  1292  1311 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{a68730a u0 com.android.todolist/.ListActivity t26062} time:2358040723
+08-31 15:52:39.606   576  1188 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:24980,c:576) disconnect(P): api 1
+08-31 15:52:39.661   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.776   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:39.893   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.109   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.226   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.343   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.638   576  2361 I BufferQueue: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e90000,id:61978,api:1,p:-1,c:-1) ~BufferQueueCore
+08-31 15:52:40.644   576  2361 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:1,p:24980,c:576) queueBuffer: fps=1.89 dur=1590.71 max=1544.80 min=8.72
+08-31 15:52:40.657   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.772   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.873   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:40.898  1292  7449 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@36d72b3
+08-31 15:52:40.979   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.094   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.095 25327 25327 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+08-31 15:52:41.097 24654 21195 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:41.108 24654 26320 W nqb     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+08-31 15:52:41.193   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.308   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.412   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.526   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.643   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:41.760   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:42.042   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:1,p:24980,c:576) queueBuffer: fps=22.89 dur=1398.09 max=499.88 min=4.47
+08-31 15:52:42.062   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:42.287   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:42.407   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:42.527   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:42.643   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:42.961   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.083   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.296 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@d3ad61
+08-31 15:52:43.297 24980 24980 I chatty  : uid=10310(com.android.todolist) identical 1 line
+08-31 15:52:43.302 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.ListActivity@d3ad61
+08-31 15:52:43.308   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.329   576  2596 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:1,p:24980,c:576) queueBuffer: fps=2.33 dur=1287.02 max=485.95 min=386.23
+08-31 15:52:43.424   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.527   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.644   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.743   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.860   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:43.993   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:44.111   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:44.227   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:44.992   576  2361 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:1,p:24980,c:576) queueBuffer: fps=8.42 dur=1662.17 max=967.39 min=1.82
+08-31 15:52:45.006   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:45.018 25327 25327 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=NEXT dump=[inputType=0x61 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=1 initialSelEnd=1 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+08-31 15:52:45.110   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:45.227   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:45.331   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:45.444   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:45.560   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:45.753   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:46.009   576   618 I BufferQueueProducer: [com.android.todolist/com.android.todolist.ListActivity#0](this:0x75b1d89000,id:61984,api:1,p:24980,c:576) queueBuffer: fps=14.74 dur=1017.85 max=500.36 min=3.99
+08-31 15:52:46.028   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:46.153   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:46.440  1292  7449 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10310
+08-31 15:52:46.444  1292  7449 D PowerHalWrapper: <amsBoostResume> last:com.android.todolist, next:com.android.todolist 
+08-31 15:52:46.452  1292  7449 D PowerHalWrapper: amsBoostNotify pid:24980,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.google.android.permissioncontroller 
+08-31 15:52:46.459   576   576 I SurfaceFlinger: screenshot (com.android.todolist/com.android.todolist.ListActivity#0)
+08-31 15:52:46.475 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6a1772d
+08-31 15:52:46.501 24980 24980 I chatty  : uid=10310(com.android.todolist) identical 15 lines
+08-31 15:52:46.502 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6a1772d
+08-31 15:52:46.522  1711  1711 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+08-31 15:52:46.531 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6a1772d
+08-31 15:52:46.553  1292  4061 I WindowManager: Relayout Window{efb3977 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+08-31 15:52:46.545 24980 24980 I chatty  : uid=10310(com.android.todolist) identical 7 lines
+08-31 15:52:46.547 24980 24980 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@6a1772d
+08-31 15:52:46.554   576   618 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x75e8e91800,id:61987,api:0,p:-1,c:576) setConsumerName: com.android.todolist/com.android.
